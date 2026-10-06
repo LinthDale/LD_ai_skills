@@ -36,6 +36,7 @@
 | [md2docx](md2docx/) | md2pdf 的安靜妹妹 — 這個吐的是能編輯的。同一份 Markdown 進去，出來是你真的能改的 Word .docx：中英一致字型、深色表頭 + 交替底色表格、標題上色、Mermaid 圖直接烤成圖片內嵌。pandoc 搭骨架，python-docx 把樣式一格一格寫死（因為光靠 reference-doc 上不了表頭色），交件前還會把檔案 render 回來確認不是空白或豆腐字 |
 | [md2ppt](md2ppt/) | md2pdf 的吵鬧弟弟。把你的 Markdown 報告變成簡報品質 .pptx，透過互動式設計對話 + 可重用的 Python build script。Generic markdown→pptx 工具（Marp、pandoc）產出來的 slide 技術上對但視覺上爛 — md2ppt 跟你一張一張對話討論 layout，然後吐一份 hand-coded script，內容改動 re-run 5 秒重產。可選 LibreOffice self-check。Brand template 整合走 ad-hoc helpers — 試過 prescribed workflow，5 輪「等等這不是 cover layout」後退掉 |
 | [conference-report](conference-report/) | 你去了場研討會，錄了演講、拍了投影片，回家抱著一堆音檔加糊掉的照片，外帶一句「改天再來整理」的空頭支票。這個 skill 幫你重建忠實的逐場筆記（投影片畫面 + 講者逐字稿，還會標出 Whisper 的幻覺，免得你引用到機器的白日夢），然後在動筆前先問清楚你到底要哪種報告 — 單場、整天、還是跨天綜合 |
+| [thesis-writing-rules](thesis-writing-rules/) | 實驗室論文規範，終於從一疊 LINE 相簿截圖變成 agent 能執行的東西。涵蓋碩博士論文與期刊／研討會投稿：標題層級、標楷體 + Times New Roman、半形括弧、圖表編號與上下空行、只准用 MathType（縮放比例請乖乖 100%/100%）、IEEE 參考文獻、畢業前交接清單。審稿依固定順序逐項列出並標條號，只能在 Word 裡確認的項目會老實說，不會假裝檢查過 |
 
 ### 規格與交付
 
